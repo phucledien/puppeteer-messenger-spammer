@@ -12,10 +12,15 @@ const puppeteer = require('puppeteer');
 
     await emailField.type('YourFuckingEmail@SomeFuckingCompany');
     await passwordField.type('YourFuckingPassword');
+    
+    // Wait til submit button is clicked and the page is loaded
     const navigationPromise = page.waitForNavigation();
+
     await submitButton.click();
 
+    // End Wait
     await navigationPromise;
+    
     
     // Your Fucking Messenger Receipient URL
     const MESSENGER_URL = 'https://www.messenger.com/t/199901607012936/';
