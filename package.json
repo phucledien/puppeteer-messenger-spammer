@@ -9,6 +9,7 @@
   "author": "Phuc Le Dien",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^5.0.1",
     "puppeteer": "^1.4.0"
   }
 }
