@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('dotenv').config();
 const puppeteer = require('puppeteer');
 
 const EMAIL = process.env.FACEBOOK_EMAIL;
