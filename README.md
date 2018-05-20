@@ -8,4 +8,7 @@
 4. Fill your username, password, receipient url, message to spam
 5. Save and run command `node index.js`
 
+## Features
+1. Spam message 
+2. Spam Change group avatar **very laggy on mobile! So be careful =]**
 ## Use it with your own responsibility! 
