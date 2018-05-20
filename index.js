@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 
 (async () => {
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch();
     const page = await browser.newPage();
     page.setViewport({ width: 1280, height: 720 });
     await page.goto('https://www.messenger.com/', { waitUntil: 'networkidle2' });
